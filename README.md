@@ -103,7 +103,7 @@ Start the backend first:
 ```powershell
 cd backend
 .\.venv\Scripts\Activate.ps1
-uvicorn app.main:app --reload
+uvicorn app.main:app --reload or fastapi dev app/main.py
 ```
 
 Backend URLs:
